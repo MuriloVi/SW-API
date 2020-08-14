@@ -5,7 +5,7 @@ p {
 .Card {
     background: white;
     border-radius: 10px;
-    transition: background-color  .4s, color .4s;
+    transition: background-color  .4s, color .4s, transform .4s;
    
    
 }
@@ -13,6 +13,7 @@ p {
 .Card:hover{
    background-color: black;
    color:#FFE81F;
+   transform: scale(1.02);
 }
 
 .Card__img {
